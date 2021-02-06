@@ -11,10 +11,34 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #b1adad56;
+
+    /* Code from https://css-tricks.com/a-few-background-patterns-sites/ */
+    --stripe: #dad5d556;
+    --bg: #e4e2e256;
+
+    background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, var(--bg) 25%, transparent 25%),
+    linear-gradient(45deg, var(--bg) 25%, transparent 25%);
+    background-size: 100px 100px;
+    background-color: var(--stripe);
+
     color: #000000;
 
 }
+
+.img {
+    width: 400px;
+    height: 200px;
+    border:2px solid #fff;
+    background: url(img/tiger.png) no-repeat;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    border-radius:25px;
+  }
 
 h2,.white{
     font-family: 'Marcellus SC', serif;
