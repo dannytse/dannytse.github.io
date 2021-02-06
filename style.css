@@ -64,6 +64,7 @@ a{
 }
 
 .section-2 a{
+    white-space: nowrap;
     text-decoration: underline;
     color: rgb(10, 29, 82);
 }
