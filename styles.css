@@ -277,12 +277,18 @@ a {
         order: 1;
         width: 100%;
         gap: 15px;
+        margin-bottom: 20px;
+    }
+
+    .name-section {
+        margin-bottom: 15px;
     }
 
     .container {
         order: 2;
         width: 100%;
         max-height: none;
+        margin-top: 10px;
     }
 
     h1 {
@@ -317,6 +323,7 @@ a {
         max-height: none;
         overflow-y: visible;
         padding: 0 5px;
+        margin-top: 0;
     }
 
     p {
