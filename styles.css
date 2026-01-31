@@ -267,7 +267,7 @@ a {
 
     .main-wrapper {
         flex-direction: column;
-        gap: 40px;
+        gap: 50px;
         height: auto;
         min-height: auto;
         align-items: center;
@@ -278,8 +278,8 @@ a {
         order: 1;
         width: 100%;
         gap: 15px;
-        margin-bottom: 20px;
-        padding-bottom: 20px;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
     }
 
     .name-section {
@@ -287,8 +287,27 @@ a {
     }
 
     .social-links {
-        margin-bottom: 30px;
+        margin-bottom: 50px;
         margin-top: 10px;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social-links a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 44px;
+        min-height: 44px;
+        padding: 10px;
+        touch-action: manipulation;
+    }
+
+    .social-links svg {
+        width: 24px;
+        height: 24px;
     }
 
     .container {
@@ -332,7 +351,7 @@ a {
         overflow-y: visible;
         padding: 0 5px;
         margin-top: 0;
-        padding-top: 20px;
+        padding-top: 40px;
     }
 
     p {
